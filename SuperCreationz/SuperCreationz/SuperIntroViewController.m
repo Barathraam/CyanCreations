@@ -25,12 +25,14 @@
 @implementation SuperIntroViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     self.navigationController.delegate=self;
     [self.navigationController setNavigationBarHidden:YES animated:YES];
     [self contentView];
     [self.view setBackgroundColor:kCreamGray];
  }
+
 
 - (void)contentView {
     
@@ -41,6 +43,9 @@
     pickerButton.translatesAutoresizingMaskIntoConstraints = NO;
     [pickerButton.layer setMasksToBounds:YES];
     [pickerButton.layer setCornerRadius:2.0f];
+    pickerButton.layer.shadowOffset = CGSizeMake(0, 0);
+    pickerButton.layer.shadowRadius = 1;
+    pickerButton.layer.shadowOpacity = 0.7;
     
     firstImageFrame =[UIImageView autolayoutView];
     firstImageFrame.layer.cornerRadius=125;

@@ -75,8 +75,8 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ndI-gM-LnW">
                                                     <rect key="frame" x="0.0" y="103" width="311" height="367"/>
                                                     <subviews>
-                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aeX-Lk-6mx">
-                                                            <rect key="frame" x="213" y="314" width="46" height="30"/>
+                                                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aeX-Lk-6mx">
+                                                            <rect key="frame" x="194" y="314" width="75" height="30"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="46" id="gml-qs-Igb"/>
                                                             </constraints>
@@ -86,8 +86,8 @@
                                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                             </state>
                                                         </button>
-                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="emY-Od-9T9">
-                                                            <rect key="frame" x="30" y="314" width="66" height="30"/>
+                                                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="emY-Od-9T9">
+                                                            <rect key="frame" x="30" y="314" width="75" height="30"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="66" id="bMo-fa-Jgx"/>
                                                             </constraints>
@@ -134,10 +134,10 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="nbr-LH-vf0" secondAttribute="trailing" id="4nk-zq-DUD"/>
-                            <constraint firstItem="nbr-LH-vf0" firstAttribute="leading" secondItem="rPA-Im-aQj" secondAttribute="leading" id="pW3-a1-y63"/>
-                            <constraint firstItem="nbr-LH-vf0" firstAttribute="bottom" secondItem="Sjj-D2-CaE" secondAttribute="top" id="tN0-Ke-pl4"/>
-                            <constraint firstItem="nbr-LH-vf0" firstAttribute="top" secondItem="SiF-8x-SMc" secondAttribute="bottom" id="yuM-qX-ya2"/>
+                            <constraint firstItem="nbr-LH-vf0" firstAttribute="bottom" secondItem="Sjj-D2-CaE" secondAttribute="top" id="LHR-eD-KZk"/>
+                            <constraint firstItem="nbr-LH-vf0" firstAttribute="top" secondItem="SiF-8x-SMc" secondAttribute="bottom" id="qIg-od-w34"/>
+                            <constraint firstItem="nbr-LH-vf0" firstAttribute="leading" secondItem="rPA-Im-aQj" secondAttribute="leading" id="r9y-aM-Qcq"/>
+                            <constraint firstAttribute="trailing" secondItem="nbr-LH-vf0" secondAttribute="trailing" id="yeK-76-ykN"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Super CreationZ" id="IBS-ZH-OOC">

@@ -19,6 +19,7 @@
 #define kshareRed UIColorFromRGB(0xff3000)
 #define kAwesomeColor [UIColor colorWithRed:255/255.0f green:165/255.0f blue:38/255.0f alpha:1.0f]
 #define kCreamGray UIColorFromRGB(0xF4F4F4)
+#define kCreamgreen UIColorFromRGB(0x2BFF9B)
 
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>

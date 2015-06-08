@@ -49,7 +49,7 @@
     popup.layer.shadowRadius = 1;
     popup.layer.shadowOpacity = 0.7;
     [self.view addSubview:popup];
-   
+
     //animation
     
     popup.alpha = 0.0;
@@ -139,13 +139,11 @@
     if (indexPath.row== [fashionImages count]) {
        [cell.customImageView setHidden:NO];
         cell.customImageView.image=[UIImage imageNamed:@"comeback.jpg"];
-        cell.customImageView.layer.cornerRadius=20;
-        cell.customImageView.layer.masksToBounds = YES;
-        cell.customImageView.clipsToBounds = YES;
+        cell.customView.backgroundColor = [UIColor whiteColor];
         [cell.likesButton setHidden:YES];
-        [cell.customView setHidden:YES];
+        [cell.customView setHidden:NO];
         [cell.DislikeButton setHidden:YES];
-        
+       
     }
     
     else {
@@ -159,6 +157,14 @@
         cell.customView.layer.cornerRadius=20;
         cell.customView.layer.masksToBounds = YES;
         cell.customView.clipsToBounds = YES;
+        cell.likesButton.backgroundColor=kAwesomeColor;
+        cell.likesButton.layer.cornerRadius=5;
+        cell.likesButton.layer.masksToBounds = YES;
+        cell.likesButton.clipsToBounds = YES;
+        cell.DislikeButton.backgroundColor=kAwesomeColor;
+        cell.DislikeButton.layer.cornerRadius=5;
+        cell.DislikeButton.layer.masksToBounds = YES;
+        cell.DislikeButton.clipsToBounds = YES;
         [cell.likesButton addTarget:self action:@selector(likethis:) forControlEvents:UIControlEventTouchUpInside];
         [cell.DislikeButton addTarget:self action:@selector(Dislikethis:) forControlEvents:UIControlEventTouchUpInside];
     }
